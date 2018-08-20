@@ -17,6 +17,7 @@ public class Guerrero extends Personaje {
                 }else {
                         return (this+"PierdeTurno;0");
                 }
+        }
 @Override
         public String toString (){
                 return String.format("%s;",getNombre());
